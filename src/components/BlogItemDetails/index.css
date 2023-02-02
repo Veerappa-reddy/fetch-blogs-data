@@ -1,0 +1,41 @@
+* {
+  padding-bottom: 10px;
+}
+.clicked-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 80px;
+}
+.click-item-profile-container {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+.author-css {
+  width: 20px;
+  border-radius: 50%;
+}
+.topic-image-css {
+  width: 580px;
+  height: 200px;
+  padding-left: 24px;
+}
+.title-css {
+  font-size: 23px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.content {
+  align-self: center;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.render-container {
+  align-self: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
